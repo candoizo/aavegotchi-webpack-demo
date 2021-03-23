@@ -1,0 +1,23 @@
+{
+  "name": "aavegotchi-pet-all-starter",
+  "description": "a minimalist gotchi petting demo",
+  "version": "1.0.0",
+  "author": "candoizo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/candoizo/aavegotchi-webpack-demo"
+  },
+  "scripts": {
+    "dev": "webpack serve --progress"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.27.2",
+    "webpack-build-notifier": "^2.1.1",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "ethers": "^5.0.32"
+  }
+}
